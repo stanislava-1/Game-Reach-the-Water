@@ -1,6 +1,9 @@
-frontend-nanodegree-arcade-game
-===============================
+Game-Reach-the-Water
+====================
 
-Students should use this [rubric](https://www.udacity.com/course/viewer/#!/c-nd001/l-2696458597/m-2687128535) for self-checking their submission.
+A game inspired by the classic arcade game Frogger. I developed it after finishing two Udacity online courses - Object Oriented JavaScript and HTML5 Canvas - to check out my knowledge of these two technologies.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Used technologies: 
+HTML, HTML5 – Canvas, CSS, Javascript, jQuery
+
+url: http://www.kocalkova.sk/reach-the-water/

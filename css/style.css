@@ -2,21 +2,26 @@ body {
     text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+.score,
+.time {
 	font-family: "Arial", Verdana, sans-serif;
-	font-size: 60px;
+}
+
+h1 {
+	font-size: 50px;
 	font-weight: bold;
 	color: #b22222;
 	margin: 20px auto 10px;
 }
 
 h2 {
-	font-family: "Arial", Verdana, sans-serif;
 	font-size: 20px;
 	text-align: center;
 	max-width: 505px;
 	margin: 0 auto;
-
 }
 
 audio {
@@ -32,7 +37,7 @@ audio {
 
 .score {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
 	width: 200px;
 	text-align: left;
 }
@@ -57,7 +62,7 @@ audio {
 
 .time {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
 	width: 200px;
 	text-align: right;
 }
@@ -91,4 +96,26 @@ audio {
 .play:active {
 	position:relative;
 	top:1px;
+}
+
+#warning {
+	padding-top: 40px;
+}
+
+#rules {
+	list-style: none;
+	padding: 0;
+}
+
+.rule {
+	/*text-align: left;*/
+}
+
+.legend-image {
+	width: 40px;
+}
+
+.legend-text {
+	vertical-align: 12px;
+	padding-left: 5px;
 }

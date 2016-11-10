@@ -119,8 +119,16 @@ var Engine = (function(global) {
         }     
     });
 
-              
-    /* This function serves as the kickoff point for the game loop itself
+    $("body").append("<h3 id='warning'>For desktop computer (you need arrow keys to play this game)!</h3>");
+    $("body").append("<p id='description'>The boy must get to the water without colliding bugs or rocks. Move the boy using <b style='color:red'>arrow keys</b>.</p>");
+    $("body").append("<h5 id='rules-heading'><b>Points and Time:</b></h5>");
+    $("body").append("<ul id='rules'></ul>");
+    $("#rules").append("<li class='rule'>Reaching the water: + 5 points</li>");
+    rules.forEach(function(rule) {
+        $("#rules").append("<li class='rule'><img class='legend-image' src='" + rule.img + "' alt='" + rule.alt + "'>" + "<span class='legend-text'>" + rule.text + "</span>" + "</li>");
+    }); 
+        
+     /* This function serves as the kickoff point for the game loop itself
      * and handles properly calling the update and render methods.
      */
     function main() {

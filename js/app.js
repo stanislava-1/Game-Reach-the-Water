@@ -615,3 +615,12 @@ function gameOver() {
     $(".again").css("display", "inline-block");
 
 }
+
+// RULES
+var rules = [
+    {"img": "images/enemy-bug.png", "alt": "enemy bug","text": "- 10 seconds"},
+    {"img": "images/Gem Blue2.png", "alt": "blue gem", "text": "+ 10 seconds"},
+    {"img": "images/Rock2.png", "alt": "rock", "text": "- 10 points"},
+    {"img": "images/Gem Orange2.png", "alt": "orange gem", "text": "+ 10 points"}
+];
+
